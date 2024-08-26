@@ -8,7 +8,7 @@ from app.handlers import router
 bot = Bot(token=TOKEN)
 dp = Dispatcher()    
 
-#run this is works or not
+#run this is works or not ююююю то не работает??
 async def main():
     dp.include_router(router)
     await dp.start_polling(bot)
