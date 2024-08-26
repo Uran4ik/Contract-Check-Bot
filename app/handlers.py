@@ -4,8 +4,7 @@ from aiogram.types import Message, CallbackQuery
 
 import app.keyboards as kb
 
-router = Router()
-
+router = Router() #dasdad
 
 @router.message(CommandStart())
 async def cmd_start(message: Message):
